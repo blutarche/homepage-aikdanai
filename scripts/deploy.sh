@@ -1,4 +1,4 @@
-ssh aik@aikdanai.com
+#!/bin/bash
 cd ~/homepage-aikdanai
 git pull
 npm install

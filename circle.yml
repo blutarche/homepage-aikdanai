@@ -12,4 +12,4 @@ deployment:
     branch: master
     commands:
       - echo 'Deploying'
-      - bash ./scripts/deploy.sh
+      - cat ./scripts/deploy.sh | ssh aik@aikdanai.com
