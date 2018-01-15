@@ -7,3 +7,11 @@ test:
   post:
     - npm install -g codeclimate-test-reporter
     - codeclimate-test-reporter < coverage/lcov.info
+deployment:
+  master:
+    branch: master
+    commands:
+      - echo 'Deploying'
+      - npm install
+      - npm run build
+      - scp -r homepage-aikdanai/build/* aik@aikdanai.com:/var/www/html/
