@@ -12,6 +12,4 @@ deployment:
     branch: master
     commands:
       - echo 'Deploying'
-      - npm install
-      - npm run build
-      - scp -r homepage-aikdanai/build/* aik@aikdanai.com:/var/www/html/
+      - ./scripts/deploy.sh
