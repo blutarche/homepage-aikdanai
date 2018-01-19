@@ -3,4 +3,4 @@ cd ~/homepage-aikdanai
 git pull
 yarn
 yarn build
-cp -R ./build/* /var/www/html/
+cp -fR ./build/* /var/www/html/
