@@ -17,6 +17,7 @@
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
+    "deploy": "cat ./scripts/deploy.sh | ssh aik@aikdanai.com",
     "eject": "react-scripts eject"
   }
 }
