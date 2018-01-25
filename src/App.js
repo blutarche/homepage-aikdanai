@@ -1,18 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './styles/App.css';
+import { AppNavbar, Skills,/* Experiences, Achievements */ } from './components';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="App-navbar">
+          <AppNavbar />
+        </div>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Aikdanai Sidhikosol</h1>
+          <div className="App-title">Aikdanai Sidhikosol</div>
+          <div className="App-job">Developer</div>
+          <div className="App-job-subtitle">
+            website &middot; game
+          </div>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div id="skills">
+          <Skills />
+        </div>
+        <div id="achievements">
+          {/* <Skills /> */}
+        </div>
+        <div id="experiences">
+          {/* <Skills /> */}
+        </div>
       </div>
     );
   }
