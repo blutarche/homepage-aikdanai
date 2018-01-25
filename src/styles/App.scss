@@ -6,8 +6,16 @@ $headerColor: #333;
 
 .App-header {
   background-color: $headerColor;
-  padding: 45px 20px 80px 20px;
+  $bgOpacity: 0.4;
+  background-image: linear-gradient( rgba(0, 0, 0, $bgOpacity), rgba(0, 0, 0, $bgOpacity) ), url(/images/cover.jpeg);
+  background-size: cover;
+  padding: 0 20px 90px 20px;
   color: white;
+  .App-navbar {
+    margin-bottom: 70px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
 }
 
 .App-title {

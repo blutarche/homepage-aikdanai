@@ -2,9 +2,21 @@
   margin-bottom: 0;
   border-radius: 0;
   background-image: none;
-  border-bottom: none;
-  background-color: #333;
-  color: white;
+  border: none;
+  background-color: transparent;
+  .navbar-brand {
+    color: white;
+    margin-top: -1px;
+    &:hover {
+      color: #88DFD3;
+    }
+  }
+  .navbar-nav > li > a {
+    color: #ccc;
+    &:hover {
+      color: #88DFD3;
+    }
+  }
 }
 
 .AppNavbar-icon {

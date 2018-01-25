@@ -8,7 +8,9 @@ class AppNavbar extends Component {
       <Navbar inverse collapseOnSelect className="AppNavbar">
     		<Navbar.Header>
     			<Navbar.Brand>
-    				<div className="AppNavbar-icon">aik</div>
+    				<a href="#top">
+              <div className="AppNavbar-icon">aik</div>
+            </a>
     			</Navbar.Brand>
     			<Navbar.Toggle />
     		</Navbar.Header>
