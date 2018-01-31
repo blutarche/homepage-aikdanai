@@ -13,7 +13,7 @@ class Info extends Component {
             <span className="Info-content-title">Hey there!</span>
           </p>
           <p>
-            Nice to meet you. I am <a href="https://facebook.com/aikdanai.s" target="_blank" className="color-primary">Aikdanai Sidhikosol</a>, a full-stack web developer and a game developer.
+            Nice to meet you. I am <a href="https://facebook.com/aikdanai.s" rel="noopener noreferrer" target="_blank" className="color-primary">Aikdanai Sidhikosol</a>, a full-stack web developer and a game developer.
           </p>
           <p>
             For website, I mostly developed on front-end side of things with a little bit of back-end here and there. But I am interested in both. I love to try new technologies or libraries to complete different requirements each project has, in which case web development satisfied that needs quite well.
