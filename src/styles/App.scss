@@ -19,17 +19,23 @@ $headerColor: #333;
 }
 
 .App-title {
-  font-size: 2em;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  font-size: 1.23em;
+  font-weight: 100;
 }
 
 .App-job {
-  font-size: 1.5em;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 3.1em;
+  font-weight: 900;
+  color: #57C7B8;
   // margin: 20px 0 0 0;
   &-subtitle {
-    font-family: 'Montserrat', sans-serif;
+    padding: 6px 12px;
+    border: solid 1px #57C7B8;
+    display: inline-block;
+    margin: 8px auto;
+    &-middot {
+      color: #57C7B8;
+    }
     a {
       color: white;
       text-decoration: none !important;

@@ -1,0 +1,21 @@
+.Info {
+  .Info-content {
+    width: 50%;
+    display: inline-block;
+    padding: 40px 20px;
+    text-align: left;
+    &-title {
+      font-size: 1.5em;
+      font-weight: 700;
+      color: #35B09F;
+    }
+    p {
+      text-indent: 2em;
+      text-align: justify;
+    }
+  }
+  .Info-picture {
+    width: 50%;
+    display: inline-block;
+  }
+}
