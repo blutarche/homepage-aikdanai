@@ -14,3 +14,4 @@ deployment:
     commands:
       - echo 'Deploying'
       - cat ./scripts/deploy.sh | ssh aik@aikdanai.com
+      - echo "cp --verbose -fR ~/homepage-aikdanai/build/* /var/www/html" | ssh aik@aikdanai.com
