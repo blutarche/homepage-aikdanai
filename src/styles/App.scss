@@ -21,14 +21,17 @@ $headerColor: #333;
 .App-title {
   font-size: 1.23em;
   font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-job {
   font-size: 3.1em;
   font-weight: 900;
   color: #57C7B8;
+  font-family: 'Montserrat', sans-serif;
   // margin: 20px 0 0 0;
   &-subtitle {
+    font-family: 'Montserrat', sans-serif;
     padding: 6px 12px;
     border: solid 1px #57C7B8;
     display: inline-block;
