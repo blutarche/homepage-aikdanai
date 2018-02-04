@@ -78,6 +78,9 @@ class Projects extends Component {
           <div className="Projects-title">
             Projects
           </div>
+          <div className="Skills-subtitle">
+            Other than real works that I most likely can't be sharing.
+          </div>
           <div className="Projects-title2">
             Websites
           </div>
