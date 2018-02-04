@@ -5,6 +5,7 @@ import Info from './Info/Info';
 import Skills from './Skills/Skills';
 import Experiences from './Experiences/Experiences';
 import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
 
 export {
   Header,
@@ -13,4 +14,5 @@ export {
   Skills,
   Experiences,
   Projects,
+  Contact
 };

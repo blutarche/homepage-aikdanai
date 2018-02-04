@@ -16,7 +16,7 @@ class Info extends Component {
                 <span className="Info-content-title">Hey there!</span>
               </p>
               <p>
-                I am <a href="https://facebook.com/aikdanai.s" rel="noopener noreferrer" target="_blank" className="color-primary">Aikdanai Sidhikosol</a>, a full-stack web developer and a game developer based in Bangkok, Thailand.
+                I am Aikdanai Sidhikosol, a full-stack web developer and a game developer based in Bangkok, Thailand.
               </p>
               <p>
                 For website, I focused on front-end side of things and did some back-end at times. Although I am interested in both. Web technologies was and still is changing fast so us developers have to adapt, but trying out new things is interesting so it's all good!

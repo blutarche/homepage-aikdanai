@@ -1,0 +1,27 @@
+@import "styles/_variables.scss";
+
+.Contact {
+  padding: 30px 0;
+}
+
+.Contact-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.Contact-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .Contact-set {
+    margin: 6px 20px;
+    i {
+      font-size: 2em;
+      color: $color-main;
+      &:hover {
+        color: $color-light;
+      }
+    }
+  }
+}
