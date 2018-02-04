@@ -19,11 +19,14 @@ class AppNavbar extends Component {
     				<NavItem eventKey={1} href="#skills">
     					Skills
     				</NavItem>
-    				<NavItem eventKey={2} href="#achievements">
+    				{/* <NavItem eventKey={2} href="#achievements">
     					Achievements
-    				</NavItem>
+    				</NavItem> */}
             <NavItem eventKey={3} href="#experiences">
     					Experiences
+    				</NavItem>
+            <NavItem eventKey={3} href="#projects">
+    					Projects
     				</NavItem>
     			</Nav>
     			<Nav pullRight>

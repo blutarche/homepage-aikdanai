@@ -14,6 +14,7 @@
 .Info-picture {
   min-height: 200px;
   width: 40%;
+  position: relative;
   @media (max-width: $sm) {
     width: 50%;
   }
@@ -30,6 +31,14 @@
     background-image: url(/images/me.jpg);
     background-size: cover;
     background-position: right;
+    @media (max-width: $xs) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+    }
   }
 }
 .Info-content {
@@ -41,6 +50,7 @@
   }
   @media (max-width: $xs) {
     width: 100%;
+    font-size: .9em;
   }
   &-title {
     font-size: 1.5em;
