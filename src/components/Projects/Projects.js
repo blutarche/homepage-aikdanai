@@ -20,7 +20,7 @@ class Projects extends Component {
       {
         type: 'github',
         name: 'Intensifier',
-        link: 'https://github.com/blutarche/intensifier',
+        link: 'https://aikdanai.com/intensifier',
       },
     ];
     this.gameProjects = [
